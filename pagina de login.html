@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>SUPERLIGA ROMANIEI</title>
+    <title>Login</title>
 </head>
 <body>
 
@@ -13,15 +13,15 @@
 
     <p>Esti la un pas distanta de a descoperi toate detaliile despre jucatori!</p>
 
-    <form>
-      <p>Username:</p>
-        <input type="text" name="nume">
+    <form action="cautare.html" method="get">
+      <label for="nume">Username:</label>
+        <input id="nume" type="text" name="nume">
 
-      <p>Parola:</p>
-        <input type="password" name="parola">
+      <label for="parola">Parola:</label>
+        <input id="parola" type="password" name="parola">
         
         <br><br>
-        <input type="submit" href="cautare.html" value="Log in">
+        <input type="submit" value="Log in">
     </form>
 
 </body>
