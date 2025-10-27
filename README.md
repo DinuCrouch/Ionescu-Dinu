@@ -7,4 +7,3 @@
 * pagina vizualizare stadioane
 * pagina vizualizare jucatori
 * pagina vizualizare antrenori
-* pagina modificare transferuri

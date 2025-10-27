@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5f5;
+    padding: 20px;
+    color: #000000;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #ff3333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #ff3333;
+    margin: 30px 0 15px 0;
+    border-bottom: 2px solid #ff3333;
+    padding-bottom: 5px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section > ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+
+section > ul > li {
+    flex: 1;
+    padding: 15px;
+    background: #fff5f5;
+    border-radius: 8px;
+    border: 1px solid #ff3333;
+}
+
+strong {
+    color: #ff3333;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+ul ul {
+    list-style: none;
+    color: #000000;
+}
+
+ul ul li {
+    margin: 5px 0;
+}
+
+/* Back button styling */
+a[href="cautare.html"] {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 12px 25px;
+    background-color: #ff3333;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: 2px solid #ff3333;
+}
+
+a[href="cautare.html"]:hover {
+    background-color: white;
+    color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 51, 51, 0.2);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    section > ul {
+        flex-direction: column;
+    }
+    
+    section > ul > li {
+        margin-bottom: 10px;
+    }
+}
